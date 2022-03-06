@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>chiranjeev.neelam@aurea.com</contactEmail>
+    <contactPhone>09502853541</contactPhone>
+    <description>Helps to integrate with aurea environment to transfer data from TSI to Aurea org.</description>
+    <label>Production - Aurea Renewal Opportunity Sync</label>
+    <oauthConfig>
+        <callbackUrl>https://aurea.my.salesforce.com/services/authcallback/TSIRenewalSupport</callbackUrl>
+        <consumerKey>3MVG9pRzvMkjMb6nNIdaZrGkNTg_oH1N9o5uApnevvENDSofif20DdDTM_knz29PeoFcYPzgCzxkZyTSAC4jc</consumerKey>
+        <scopes>Api</scopes>
+        <scopes>Full</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+</ConnectedApp>

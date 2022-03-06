@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <description>This will send a rest notification to aurea system to initiate renewal opportunity synchronization.</description>
+        <name>Set_renewal_opportunities_to_aurea_systems</name>
+        <label>Set renewal opportunities to aurea systems</label>
+        <locationX>308</locationX>
+        <locationY>288</locationY>
+        <actionName>SyncAureaRenewalOpportunities</actionName>
+        <actionType>apex</actionType>
+        <inputParameters>
+            <name>AccountIds</name>
+            <value>
+                <elementReference>$Record.AccountId</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <description>This flow helps to trigger aurea renewal opportunity synchronisation process.</description>
+    <interviewLabel>Sync Renewal Opportunity with Aurea Systems {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Sync Renewal Opportunity with Aurea Systems</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+</Flow>

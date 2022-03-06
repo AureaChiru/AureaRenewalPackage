@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Aurea Renewals Support</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Aurea Renewals Support</value>
+    </caseValues>
+    <fields>
+        <help><!-- Description of the current custom settings record usage in aurea renewal sync process. --></help>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Contains object information to support Aurea renewal sync process. --></help>
+        <label><!-- Object --></label>
+        <name>Object__c</name>
+    </fields>
+    <fields>
+        <label><!-- Operation Info --></label>
+        <name>Operation_Info__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
